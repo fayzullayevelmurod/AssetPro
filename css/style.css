@@ -172,6 +172,7 @@ address {
 }
 .marquee .carousel-field {
   width: 100%;
+  height: 74px;
 }
 .marquee .carousel-field .reverse-marquee-carousel,
 .marquee .carousel-field .marquee-carousel {
@@ -237,6 +238,112 @@ address {
 }
 .investments .main_title {
   margin-bottom: 40px;
+}
+.investments .investments_blocks {
+  display: flex;
+  align-items: start;
+  gap: 110px;
+}
+.investments .investments_block {
+  width: 50%;
+}
+.investments_left {
+  flex-direction: column;
+  display: flex;
+  gap: 16px;
+}
+.investments_left p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #141414;
+}
+.investments_right {
+  display: flex;
+  flex-direction: column;
+}
+.investments_right li {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-bottom: 1px solid #D2DAE1;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.investments_right li:first-child {
+  padding-top: 0;
+}
+.investments_right p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #141414;
+}
+.investments_right h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 62.4px;
+  color: #141414;
+}
+.investments_right span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #707D89;
+  margin-top: 24px;
+}
+
+.comparison .main_title {
+  margin-bottom: 64px;
+}
+.comparison .comparison_block {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  width: 25%;
+}
+.comparison .comparison_block .block {
+  width: 100%;
+  background: #22C96A;
+  border-radius: 6px;
+}
+.comparison .comparison_block .w_5 {
+  height: 50px;
+}
+.comparison .comparison_block .w_7 {
+  height: 70px;
+}
+.comparison .comparison_block .w_8 {
+  height: 80px;
+}
+.comparison .comparison_block .w_240 {
+  height: 240px;
+}
+.comparison .comparison_block h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 42px;
+  color: #141414;
+}
+.comparison .comparison_block p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #141414;
+  height: 36px;
+  align-content: center;
+}
+.comparison .comparison_block .end_text {
+  height: 36px;
+  align-content: center;
+}
+.comparison .comparison_in {
+  display: flex;
+  align-items: end;
+  gap: 64px;
 }
 
 @media only screen and (max-width: 993px) {

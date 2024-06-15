@@ -223,6 +223,7 @@ address {
     background: #141414;
     .carousel-field {
         width: 100%;
+        height: 74px;
         .reverse-marquee-carousel,
         .marquee-carousel {
             width: 100%;
@@ -301,8 +302,135 @@ address {
     .main_title {
         margin-bottom: 40px;
     }
+
+    .investments_blocks {
+        @include flex-start();
+        gap: 110px;
+    }
+
+    .investments_block {
+        width: calc(100% / 2);
+    }
+
+    &_left {
+        @include flex-column();
+        display: flex;
+        gap: 16px;
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;  
+            color: #141414;
+        }
+    }
+
+    &_right {
+        display: flex;
+        flex-direction: column;
+
+        li {
+            @include flex-center();
+            gap: 16px;
+            border-bottom: 1px solid #D2DAE1;
+            padding-top: 24px;
+            padding-bottom: 24px;
+
+            &:first-child {
+                padding-top: 0;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            color: #141414;
+        }
+
+        h6 {
+            font-family: $font-Cormorant;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 62.4px;
+            color: #141414;
+        }
+
+        span {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 21px;
+            color: #707D89;
+            margin-top: 24px;
+        }
+    }
 }
 // investments
+
+// comparison
+.comparison {
+    .main_title {
+        margin-bottom: 64px;
+    }
+
+    .comparison_block {
+        @include flex-center();
+        flex-direction: column;
+        gap: 24px;
+        width: calc(100% / 4);
+
+        .block {
+            width: 100%;
+            background: #22C96A;
+            border-radius: 6px;
+        }
+
+        .w_5 {
+            height: 50px;
+        }
+
+        .w_7 {
+            height: 70px;
+        }
+
+        .w_8 {
+            height: 80px;
+        }
+
+        .w_240 {
+            height: 240px;
+        }
+
+        h6 {
+            font-family: $font-Cormorant;
+            font-size: 28px;
+            font-weight: 400;
+            line-height: 42px;
+            color: #141414;
+        }
+
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 24px;
+            color: #141414;
+            height: 36px;
+            align-content: center;
+        }
+
+        .end_text {
+            height: 36px;
+            align-content: center;
+        }
+    }
+
+    .comparison_in {
+        display: flex;
+        align-items: end;
+        gap: 64px;
+    }
+}
+// comparison
 
 
 @import './responsive';
