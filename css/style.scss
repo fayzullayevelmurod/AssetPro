@@ -113,6 +113,20 @@ address {
         background: #22C96A;
         text-transform: uppercase;
     }
+    
+    &_title {
+        text-align: center;
+        font-family: $font-Cormorant;
+        font-size: 58px;
+        font-weight: 400;
+        line-height: 69.6px;
+        color: #141414;
+    }
+}
+
+
+.section_in {
+    padding: 128px 0;
 }
 // vars
 
@@ -207,15 +221,13 @@ address {
 // marquee
 .marquee {
     background: #141414;
-    padding: 16px 0;
-
     .carousel-field {
         width: 100%;
         .reverse-marquee-carousel,
         .marquee-carousel {
             width: 100%;
-            height: 50%;
             .swiper-wrapper {
+                padding: 16px 0;
                 -webkit-transition-timing-function: linear !important;
                 transition-timing-function: linear !important; 
                 .swiper-slide {
@@ -269,6 +281,28 @@ address {
     }
 }
 // marquee
+
+// who_we_are
+.who_we_are {
+    p {
+        margin: 32px auto 64px auto;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        max-width: 1076px;
+    }
+}
+// who_we_are
+
+// investments
+.investments {
+    background: #F9FAFB;
+
+    .main_title {
+        margin-bottom: 40px;
+    }
+}
+// investments
 
 
 @import './responsive';
