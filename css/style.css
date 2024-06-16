@@ -357,6 +357,55 @@ address {
   margin: 0 auto;
 }
 
+.steps .main_title {
+  max-width: 535px;
+  margin: 0 auto 64px auto;
+}
+.steps_lines {
+  border-bottom: 1px dashed #D2DAE1;
+  display: flex;
+  align-items: center;
+  gap: 112px;
+}
+.steps_lines .steps_line {
+  width: 33.3333333333%;
+  position: relative;
+}
+.steps_lines .steps_line img {
+  position: absolute;
+  bottom: -15px;
+  z-index: 2;
+  background: #fff;
+}
+.steps_blocks {
+  margin: 40px 0 64px 0;
+  display: flex;
+  align-items: center;
+  gap: 112px;
+}
+.steps_blocks .step_block {
+  width: 33.3333333333%;
+}
+.steps_blocks h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+  margin-bottom: 16px;
+  color: #141414;
+}
+.steps_blocks p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #141414;
+}
+.steps .step_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .profitability {
   background: #F9FAFB;
 }
