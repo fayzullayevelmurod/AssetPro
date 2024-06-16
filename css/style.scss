@@ -448,6 +448,65 @@ address {
 }
 // level
 
+// profitability
+.profitability {
+    background: #F9FAFB;
+
+    .main_title {
+        margin-bottom: 40px;
+    }
+
+    &_list {
+        li {
+            display: flex;
+            align-items: start;
+            gap: 80px;
+            padding: 32px 0;
+            border-bottom: 1px solid #D2DAE1;
+
+            &:first-child {
+                padding: 0 0 32px 0;
+            }
+
+            &:last-child {
+                padding: 32px 0 0 0;
+                border-bottom: none;
+            }
+        }
+    }
+
+    .list_title {
+        width: 580px;
+        @include flex-center();
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    span {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 21px;
+        color: #707D89;
+    }
+
+    h6  {
+        font-family: $font-Cormorant;
+        font-size: 32px;
+        font-weight: 400;
+        line-height: 41.6px;
+        color: #141414;
+    }
+
+    p {
+        max-width: 636px;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 24px;
+        color: #141414;
+    }
+}
+// profitability
+
 // footer
 .footer {
     background: #141414;

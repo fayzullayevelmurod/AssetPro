@@ -357,6 +357,54 @@ address {
   margin: 0 auto;
 }
 
+.profitability {
+  background: #F9FAFB;
+}
+.profitability .main_title {
+  margin-bottom: 40px;
+}
+.profitability_list li {
+  display: flex;
+  align-items: start;
+  gap: 80px;
+  padding: 32px 0;
+  border-bottom: 1px solid #D2DAE1;
+}
+.profitability_list li:first-child {
+  padding: 0 0 32px 0;
+}
+.profitability_list li:last-child {
+  padding: 32px 0 0 0;
+  border-bottom: none;
+}
+.profitability .list_title {
+  width: 580px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.profitability span {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 21px;
+  color: #707D89;
+}
+.profitability h6 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 41.6px;
+  color: #141414;
+}
+.profitability p {
+  max-width: 636px;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  color: #141414;
+}
+
 .footer {
   background: #141414;
   padding: 80px 0 40px 0;
